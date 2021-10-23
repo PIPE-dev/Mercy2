@@ -16,7 +16,7 @@ header ul {
 }
 
 img {
-    padding: 20px 80px 20px 20px;
+    padding: 20px 20px 20px 20px;
 }
 
 header li a {
@@ -25,13 +25,24 @@ header li a {
     
 }
 
+#About {
+    color: goldenrod;
+    background-color: transparent;
+    border-bottom: 5px solid goldenrod;
+    padding-bottom: 22px
+  }
+
 .fa-search {
     color: white;
     
 }
 
+#SIGNUP {
+    color: goldenrod;
+} 
+
 #FAQ {
-    padding-right: 400px;
+    padding-right: 130px;
 }
 
 .vl {
@@ -43,12 +54,44 @@ header li a {
 
 nav li {
     display: inline;
-    padding: 0 30px 0 30px;
+    padding: 0 20px 0 20px;
 }
+
+.arrow {
+    border: solid goldenrod;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+  }
+
+  .down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+  }
 
 #Section1 {
     background-color: goldenrod;
-    display: flex;
+    overflow: hidden;
+}
+
+#Section1 h1 {
+    color: white;
+    padding: 0 100px 0 200px;
+    padding-bottom: 30px;
+}
+
+#Section1 p {
+    padding: 0 150px 0 200px;
+    font-size: 12px;
+}
+
+#Section1 hr {
+    margin-left: 100px;
+    border: 2px solid black;
+}
+
+#PHOTO {
+    float: left;
 }
 
 #Section2 {
@@ -56,14 +99,19 @@ nav li {
 }
 
 #Section2 h1 {
-    margin-top: 100px;
-    padding-left: 600px ;
+    margin-top: 130px;
+    text-align: center;
+}
+
+#Section2 hr {
+    margin-left: 435px;
 }
 
 #Section2 p {
-    padding-left: 22%;
-    padding-right: 22%;
+    padding-left: 12%;
+    padding-right: 12%;
     margin-top: 50px;
+    text-align: center;
 }
 
 #Section3 {
@@ -75,7 +123,7 @@ nav li {
 .grid-container {
     display: grid;
     grid-template-columns: auto auto auto;
-    padding: 10px;
+    
     padding-right: 20px;
     padding-left: 20px;
     margin-bottom: 100px;
@@ -92,12 +140,16 @@ nav li {
     display: flex;    
 } 
 
+#Section4 h1 {
+    color: white;
+}
+
 .Contain {
     flex-basis: 50%;
     text-align: center;
     background-color: goldenrod;
     margin-top: 20px;
-    margin-bottom: 107px;
+    margin-bottom: 80px;
     padding-right: 50px;
     padding-left: 50px;
     
@@ -113,56 +165,57 @@ nav li {
 }
 
 #Section5 img {
-    padding-left: 190px;
+    padding-left: 30px;
     padding-bottom: 0;
 }
 
 #Section5 h1 {
-    padding-left: 600px;
+    text-align: center;
     color: #333333;
     font-family: rosario;
-
 }
 
 hr {
     width: 50px;
     border-top: 1px solid #F9B634 ;
-    margin-left: 625px;
+    margin-left: 435px;
     margin-bottom: 70px;
 }
 
 #Section5 h6 {
     font-size: 13px;
-    padding-left: 190px;
-    margin-bottom: 0;
 }
 
 #Section5 p {
-    font-size: 9px;
-    margin-left: 200px;
+    font-size: 9px;    
+}
+
+#Section6 {
+    padding-bottom: 100px;
+    margin-left: 400px;
+}
+
+#Section6 a {
+    padding: 10px 20px;
+    border: 1px solid goldenrod;
+    background-color: transparent;
+    color: black;
+    text-decoration: none;
     
-}
-
-.Boxes {
-    display: flex;
-    margin-bottom: 150px;
-}
-
-.Box1 {
-    flex-basis: 30%;
-    display: inline;
-    padding-left: 35px;
 }
 
 footer {
     background-color: #333333;
     display: flex;
-    padding-left: 20%;
-    padding-right: 30%;
+    padding-left: 10px;
+    padding-bottom: 50px;
+    
+    
 }
 
 footer h2 {
     color: #F9B634;
+   
 } 
 
 footer p {
@@ -171,20 +224,39 @@ footer p {
 }
 
 footer .sub1 {
-    padding-right: 10%;
+    padding-right: 50px;
+    padding-left: 150px;
  
 }
 
 footer .sub2 {
-    padding-right: 10%;
+    padding-right: 50px;
 }
 
 footer .sub3 {
-    padding-right: 5%;
+    padding-right: 50px;
+  
+}
+
+footer .sub3 p {
+    line-height: 0.5em;
 }
 
 footer input {
+    border: 0;
     border-bottom: 2px solid white;
     background-color: #333333;
-    margin-top: 100px;
+    margin-top: 70px;
+    
+  
 }
+
+footer button {
+    background-color: #333333;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    
+    
+}
+

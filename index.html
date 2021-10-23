@@ -3,9 +3,12 @@
     <head>
         <title> MERCY | Profile Design </title>
         <link rel="stylesheet" type="text/css" href="Mercy2.css"> 
+        <script src='https://kit.fontawesome.com/afaf6c96c0.js' crossorigin='anonymous'></script>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Rosario">
-        <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Rosario' >
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Rosario:ital,wght@0,300;0,400;0,500;
+        0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
         <meta name="viewpoint" content= "width=device-width, initial-scale=1.0"> </head>
 
         <body>
@@ -14,21 +17,22 @@
                 <nav>
                 <ul>
                     <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
+                    <li><a href="MERCY.html" target="_blank" id="About">About</a></li>
                     <li><a href="#">Contact</a></li>
-                    <li><a href="#">Categories</a></li>
+                    <li><a href="#">Categories <i class="arrow down"></i></a></li>
                     <li id="FAQ"><a href="#">FAQ</a></li>
                     <i class="fa fa-search"></i>
                     <li><a href="#">Log In</a></li>
                     <div class="vl"></div>
-                    <li><a href="#">Sign Up</a></li>
+                    <li><a href="#"><span id="SIGNUP">Sign Up</span></a></li>
                 </ul>
                 </nav>
             </header>
 
             <section id="Section1">
-                <img src="PIX1.png" >
-                <h3>Business to Business Transactions Just Got Easy</h3>
+                <img src="PIX1.png" id="PHOTO" width="500px">
+                <h1>Business to Business Transactions Just Got Easy</h1>
+                <hr>
                 <p>In Vue.js, view-models are created using the Vue class. 
                     If you are wondering what a view-model is, you can think of it as an object that make</p>
             </section>
@@ -87,27 +91,29 @@
             <section id="Section5">
                 <h1> The Team</h1>
                 <hr>
-                <div class="Boxes">
-                <div class="Box1">
-                <img src="PIX3.png" width="80px">
+                <div class="grid-container">
+                <div class="grid-item">
+                <img src="PIX3.png" width="80px" id="CEO">
                 <h6>Odera Okonkwo </h6>
                 <p>Chief Executive Officer</p>
                 </div>
 
-                <div class="Box1">
+                <div class="grid-item">
                 <img src="PIX4.png" width="80px">
                 <h6>Aniekan Offiong </h6>
                 <p>Web Developer</p>
                 </div>
 
-                <div class="Box1">
+                <div class="grid-item">
                 <img src="PIX5.png" width="80px">
                 <h6>Dike Thelma </h6>
                 <p>Designer</p>
                 </div>
-
             </section></div>
-                
+
+            <section id="Section6">
+                <a href="#" target="_blank">See More</a>
+            </section>
 
         <footer>
             
@@ -127,13 +133,17 @@
         
             <div class="sub3">
             <h2>  SHOP INFO              </h2>
-            <p>Start Innovation  Hub,
-                Ibom E-library.
-               info@b2b.com
-               +234 8138 790 480</p>
+            <p>Start Innovation  Hub,</p>
+                <p>   Ibom E-library.</p>
+                    <p> info@b2b.com </p>
+            <p>+234 8138 790 480</p>
+            </div>
             </div>
 
-            <form><input type="email" placeholder="Sign Up For Newsletter"></form>
+            <form><input type="email" placeholder="Sign Up For Newsletter">
+            <button><i class='fas fa-long-arrow-alt-right' style="color: goldenrod;"></i>
+            </button>
+            </form>
     
                 
         </footer>
